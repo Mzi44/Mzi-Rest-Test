@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.492" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/F5599857/Downloads/restassured-api-tests/target/test-classes:/Users/F5599857/Downloads/restassured-api-tests/target/classes:/Users/F5599857/.m2/repository/io/rest-assured/rest-assured/5.5.6/rest-assured-5.5.6.jar:/Users/F5599857/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/F5599857/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/F5599857/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/F5599857/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/F5599857/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/F5599857/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/F5599857/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/F5599857/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/F5599857/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/F5599857/.m2/repository/io/rest-assured/json-path/5.5.6/json-path-5.5.6.jar:/Users/F5599857/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/F5599857/.m2/repository/io/rest-assured/rest-assured-common/5.5.6/rest-assured-common-5.5.6.jar:/Users/F5599857/.m2/repository/io/rest-assured/xml-path/5.5.6/xml-path-5.5.6.jar:/Users/F5599857/.m2/repository/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar:/Users/F5599857/.m2/repository/io/rest-assured/json-schema-validator/5.5.6/json-schema-validator-5.5.6.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/F5599857/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/F5599857/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/F5599857/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/F5599857/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/F5599857/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/F5599857/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/F5599857/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/F5599857/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/F5599857/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/F5599857/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/F5599857/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/F5599857/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/F5599857/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/F5599857/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/F5599857/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/F5599857/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/F5599857/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.0/jackson-databind-2.20.0.jar:/Users/F5599857/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar:/Users/F5599857/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.0/jackson-core-2.20.0.jar:/Users/F5599857/.m2/repository/org/projectlombok/lombok/1.18.40/lombok-1.18.40.jar:/Users/F5599857/.m2/repository/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.boot.library.path" value="/Users/F5599857/Library/Java/JavaVirtualMachines/ms-21.0.10/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/F5599857/Downloads/restassured-api-tests/target/surefire/surefirebooter-20260402230939118_3.jar /Users/F5599857/Downloads/restassured-api-tests/target/surefire 2026-04-02T23-09-39_047-jvmRun1 surefire-20260402230939118_1tmp surefire_0-20260402230939118_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/F5599857/Downloads/restassured-api-tests/target/test-classes:/Users/F5599857/Downloads/restassured-api-tests/target/classes:/Users/F5599857/.m2/repository/io/rest-assured/rest-assured/5.5.6/rest-assured-5.5.6.jar:/Users/F5599857/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/F5599857/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/F5599857/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/F5599857/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/F5599857/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/F5599857/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/F5599857/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/F5599857/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/F5599857/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/F5599857/.m2/repository/io/rest-assured/json-path/5.5.6/json-path-5.5.6.jar:/Users/F5599857/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/F5599857/.m2/repository/io/rest-assured/rest-assured-common/5.5.6/rest-assured-common-5.5.6.jar:/Users/F5599857/.m2/repository/io/rest-assured/xml-path/5.5.6/xml-path-5.5.6.jar:/Users/F5599857/.m2/repository/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar:/Users/F5599857/.m2/repository/io/rest-assured/json-schema-validator/5.5.6/json-schema-validator-5.5.6.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/F5599857/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/F5599857/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/F5599857/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/F5599857/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/F5599857/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/F5599857/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/F5599857/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/F5599857/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/F5599857/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/F5599857/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/F5599857/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/F5599857/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/F5599857/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/F5599857/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/F5599857/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/F5599857/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/F5599857/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/F5599857/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.0/jackson-databind-2.20.0.jar:/Users/F5599857/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar:/Users/F5599857/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.0/jackson-core-2.20.0.jar:/Users/F5599857/.m2/repository/org/projectlombok/lombok/1.18.40/lombok-1.18.40.jar:/Users/F5599857/.m2/repository/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/F5599857"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/Users/F5599857/Library/Java/JavaVirtualMachines/ms-21.0.10/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/F5599857/Downloads/restassured-api-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/F5599857/Downloads/restassured-api-tests/target/surefire/surefirebooter-20260402230939118_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+7-LTS"/>
+    <property name="user.name" value="F5599857"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-13106411"/>
+    <property name="localRepository" value="/Users/F5599857/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/qk/y_6t3_nn29q0mpxv_1f7w0f40000gn/T/"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="/Users/F5599857/Downloads/restassured-api-tests"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/F5599857/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.10+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="com.api.tests.suites.UserLifecycleTest" time="1.452">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "testuser_1775164179485@example.com",
+    "password": "UserPassword@123",
+    "confirmPassword": "UserPassword@123",
+    "groupId": "1deae17a-c67a-4bb0-bdeb-df0fc9e2e526"
+}
+Registered User ID: 7c2b6477-17e3-40bd-9719-5ddc76828825
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testAdminAuthentication" classname="com.api.tests.suites.UserLifecycleTest" time="0.642">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "spare@admin.com",
+    "password": "@12345678",
+    "token": null,
+    "refreshToken": null,
+    "role": null
+}
+Admin token extracted.
+]]></system-out>
+  </testcase>
+  <testcase name="testApproveAndPromoteUser" classname="com.api.tests.suites.UserLifecycleTest" time="0.193">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/admin/users/7c2b6477-17e3-40bd-9719-5ddc76828825/approve
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwN2E5ZDY2Ni05ZjE0LTQ5YjktOTJmYi02YjBkYWI5OTAwYjYiLCJlbWFpbCI6InNwYXJlQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTE2NDE4MSwiZXhwIjoxNzc1MjUwNTgxfQ.8r9CxFn7W62U15WrXjgcFcLbJsdqwn8lwe0z16wy6NQ
+				Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/admin/users/7c2b6477-17e3-40bd-9719-5ddc76828825/approve
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwN2E5ZDY2Ni05ZjE0LTQ5YjktOTJmYi02YjBkYWI5OTAwYjYiLCJlbWFpbCI6InNwYXJlQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTE2NDE4MSwiZXhwIjoxNzc1MjUwNTgxfQ.8r9CxFn7W62U15WrXjgcFcLbJsdqwn8lwe0z16wy6NQ
+				Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/admin/users/7c2b6477-17e3-40bd-9719-5ddc76828825/role
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwN2E5ZDY2Ni05ZjE0LTQ5YjktOTJmYi02YjBkYWI5OTAwYjYiLCJlbWFpbCI6InNwYXJlQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTE2NDE4MSwiZXhwIjoxNzc1MjUwNTgxfQ.8r9CxFn7W62U15WrXjgcFcLbJsdqwn8lwe0z16wy6NQ
+				Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "role": "admin"
+}
+Request method:	PUT
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/admin/users/7c2b6477-17e3-40bd-9719-5ddc76828825/role
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwN2E5ZDY2Ni05ZjE0LTQ5YjktOTJmYi02YjBkYWI5OTAwYjYiLCJlbWFpbCI6InNwYXJlQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTE2NDE4MSwiZXhwIjoxNzc1MjUwNTgxfQ.8r9CxFn7W62U15WrXjgcFcLbJsdqwn8lwe0z16wy6NQ
+				Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "role": "admin"
+}
+User 7c2b6477-17e3-40bd-9719-5ddc76828825 approved and role set to admin.
+]]></system-out>
+  </testcase>
+  <testcase name="testVerifyNewUserRole" classname="com.api.tests.suites.UserLifecycleTest" time="0.552">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "testuser_1775164179485@example.com",
+    "password": "UserPassword@123",
+    "token": null,
+    "refreshToken": null,
+    "role": null
+}
+Verification successful: new user logged in with admin role.
+]]></system-out>
+  </testcase>
+  <testcase name="testCleanupUser" classname="com.api.tests.suites.UserLifecycleTest" time="0.092">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/admin/users/7c2b6477-17e3-40bd-9719-5ddc76828825
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwN2E5ZDY2Ni05ZjE0LTQ5YjktOTJmYi02YjBkYWI5OTAwYjYiLCJlbWFpbCI6InNwYXJlQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTE2NDE4MSwiZXhwIjoxNzc1MjUwNTgxfQ.8r9CxFn7W62U15WrXjgcFcLbJsdqwn8lwe0z16wy6NQ
+				Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://www.ndosiautomation.co.za/APIDEV/admin/users/7c2b6477-17e3-40bd-9719-5ddc76828825
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIwN2E5ZDY2Ni05ZjE0LTQ5YjktOTJmYi02YjBkYWI5OTAwYjYiLCJlbWFpbCI6InNwYXJlQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTE2NDE4MSwiZXhwIjoxNzc1MjUwNTgxfQ.8r9CxFn7W62U15WrXjgcFcLbJsdqwn8lwe0z16wy6NQ
+				Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Cleanup successful: user 7c2b6477-17e3-40bd-9719-5ddc76828825 deleted.
+]]></system-out>
+  </testcase>
+</testsuite>

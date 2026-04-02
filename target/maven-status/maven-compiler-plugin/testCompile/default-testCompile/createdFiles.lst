@@ -1,0 +1,8 @@
+com/api/tests/suites/UserLifecycleTest.class
+com/api/tests/models/RegistrationRequest$RegistrationRequestBuilder.class
+com/api/tests/models/Auth.class
+com/api/tests/base/BaseTest.class
+com/api/tests/models/RegistrationRequest.class
+com/api/tests/models/User.class
+com/api/tests/models/User$UserBuilder.class
+com/api/tests/models/Auth$AuthBuilder.class

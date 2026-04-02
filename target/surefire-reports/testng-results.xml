@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-02T23:09:39 SAST" name="API Test Suite" finished-at="2026-04-02T23:09:42 SAST" duration-ms="2947">
+    <groups>
+    </groups>
+    <test started-at="2026-04-02T23:09:39 SAST" name="User Lifecycle Tests" finished-at="2026-04-02T23:09:42 SAST" duration-ms="2947">
+      <class name="com.api.tests.suites.UserLifecycleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.tests.suites.UserLifecycleTest@63021689]" started-at="2026-04-02T23:09:39 SAST" name="setup" finished-at="2026-04-02T23:09:39 SAST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:1, instance:com.api.tests.suites.UserLifecycleTest@63021689]" started-at="2026-04-02T23:09:39 SAST" name="testCreateUser" description="Step 1: Register a new user (pending approval)" finished-at="2026-04-02T23:09:41 SAST" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testAdminAuthentication()[pri:2, instance:com.api.tests.suites.UserLifecycleTest@63021689]" started-at="2026-04-02T23:09:41 SAST" name="testAdminAuthentication" description="Step 2: Authenticate as Admin" finished-at="2026-04-02T23:09:41 SAST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminAuthentication -->
+        <test-method signature="testApproveAndPromoteUser()[pri:3, instance:com.api.tests.suites.UserLifecycleTest@63021689]" started-at="2026-04-02T23:09:41 SAST" name="testApproveAndPromoteUser" description="Step 3: Approve user, then set role to admin" finished-at="2026-04-02T23:09:42 SAST" depends-on-methods="com.api.tests.suites.UserLifecycleTest.testAdminAuthentication, com.api.tests.suites.UserLifecycleTest.testCreateUser" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApproveAndPromoteUser -->
+        <test-method signature="testVerifyNewUserRole()[pri:4, instance:com.api.tests.suites.UserLifecycleTest@63021689]" started-at="2026-04-02T23:09:42 SAST" name="testVerifyNewUserRole" description="Step 4: Verify new user has admin role after login" finished-at="2026-04-02T23:09:42 SAST" depends-on-methods="com.api.tests.suites.UserLifecycleTest.testApproveAndPromoteUser" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyNewUserRole -->
+        <test-method signature="testCleanupUser()[pri:5, instance:com.api.tests.suites.UserLifecycleTest@63021689]" started-at="2026-04-02T23:09:42 SAST" name="testCleanupUser" description="Step 5: Cleanup — delete the created user (super admin)" finished-at="2026-04-02T23:09:42 SAST" depends-on-methods="com.api.tests.suites.UserLifecycleTest.testCreateUser" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanupUser -->
+      </class> <!-- com.api.tests.suites.UserLifecycleTest -->
+    </test> <!-- User Lifecycle Tests -->
+  </suite> <!-- API Test Suite -->
+</testng-results>

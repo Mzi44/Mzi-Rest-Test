@@ -1,0 +1,5 @@
+/Users/F5599857/Downloads/restassured-api-tests/src/test/java/com/api/tests/base/BaseTest.java
+/Users/F5599857/Downloads/restassured-api-tests/src/test/java/com/api/tests/models/Auth.java
+/Users/F5599857/Downloads/restassured-api-tests/src/test/java/com/api/tests/models/RegistrationRequest.java
+/Users/F5599857/Downloads/restassured-api-tests/src/test/java/com/api/tests/models/User.java
+/Users/F5599857/Downloads/restassured-api-tests/src/test/java/com/api/tests/suites/UserLifecycleTest.java

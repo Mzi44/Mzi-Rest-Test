@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="npm-registry" />
+      <option name="name" value="NPM Registry" />
+      <option name="url" value="http://registry.npmjs.org" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cii-it-repo" />
+      <option name="name" value="Hogan Repo" />
+      <option name="url" value="http://cii-devcin01.fnb.co.za:8081/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="hogan-repo" />
+      <option name="name" value="Hogan Repository" />
+      <option name="url" value="http://ht-nexus.fnb.co.za/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-new" />
+      <option name="name" value="Nexus Repository" />
+      <option name="url" value="https://ssccnexus.fnb.co.za/repository/maven-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+</project>
