@@ -1,3 +1,12 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Mzi Ignoring all the files which i do not want to be added in git
+# Ignore Allure raw results
+allure-results/
+
+# Ignore Allure generated reports
+allure-report/
+
+# If you use Maven, ignore the target folder (which often contains reports)
+target/

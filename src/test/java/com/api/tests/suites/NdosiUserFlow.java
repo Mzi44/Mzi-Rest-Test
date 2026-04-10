@@ -5,6 +5,7 @@ import com.api.tests.models.Auth;
 import com.api.tests.models.RegistrationRequest;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -14,6 +15,10 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.anyOf;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
+import io.qameta.allure.testng.AllureTestNg;
+
+
+@Listeners({io.qameta.allure.testng.AllureTestNg.class})
 
 
 //End-to-end flow:
